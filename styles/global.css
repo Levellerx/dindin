@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+	box-sizing: border-box;
+    
+}
+
+header {
+    background: #2E948A;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    
+}
+
+#header-inside {
+    max-width: 1440px;
+    
+    
+}
+
+#logo {
+    margin: 20px 82px;
+    width: 246px;
+}
+
+nav {
+    width: 309px;
+    margin-right: 82px;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.navigation-link {
+    text-decoration: none;
+    /* font: 700 bold 1.25em 'Ubuntu', sans-serif; */
+    /* para usar todas cima numa unica tag "shorhand", colocar nessa ordem font: font-style font-weight font-size font-family  */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #FDFDFD;
+    text-transform: uppercase;
+    width: 50px;
+;
+}
+
+footer {
+    width: 100%;
+    background-color: #009688;
+    padding: 50px 128px 42px 128px;;
+}
+
+#insider-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* margin: 50px 128px 42px 128px; */
+}
+
+.nav-footer-link {
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+#nav-footer > ol, ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    line-height: 24.98px;
+}
+
+#link-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#link-footer > a {
+    text-decoration: none;
+    font-size: 1.25em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 62px;
+    padding: 13px 41px;
+    box-sizing: border-box;
+    
+    /* identical to box height */
+
+    text-align: center;
+    margin-bottom: 13px;
+}
